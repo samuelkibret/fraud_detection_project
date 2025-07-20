@@ -1,2 +1,44 @@
-data
-venv8
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+*.feather
+*.pkl
+
+# Machine Learning Models & Logs
+*.pt  # PyTorch models
+*.pth # PyTorch models
+*.h5  # Keras/TensorFlow models
+*.onnx
+*.bin
+*.joblib
+*.pkl
+logs/
+*.log
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# IDEs and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker specific
+*.env # If you have a .env file for environment variables
